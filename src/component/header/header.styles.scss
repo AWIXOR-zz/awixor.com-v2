@@ -1,0 +1,66 @@
+.main-header {
+  position: fixed;
+  top: 0;
+  max-height: 70px;
+  width: 100%;
+  padding: 20px 0 10px 0;
+  z-index: 900;
+  background: #212121;
+  border-bottom: 1px #e52e2d solid;
+  overflow: hidden;
+
+  nav {
+    width: 80%;
+    float: right;
+
+    ul {
+      float: right;
+      overflow: hidden;
+      list-style: none;
+      text-align: right;
+      margin-right: 100px;
+
+      li {
+        display: inline-block;
+        margin-left: 20px;
+        line-height: 1.5;
+
+        i {
+          color: #fcfcfc;
+        }
+      }
+      a {
+        text-decoration: none;
+        color: #454545;
+        text-transform: uppercase;
+        font-size: 14px;
+        -webkit-transition: color 0.3s ease;
+        -o-transition: color 0.3s ease;
+        transition: color 0.3s ease;
+        &:hover {
+          color: #e52e2d;
+        }
+      }
+      .active {
+        color: #e52e2d;
+      }
+    }
+  }
+}
+.logo {
+  float: left;
+  display: block;
+  margin-top: 0;
+  margin-left: 100px;
+  margin-bottom: 10px;
+  line-height: 1;
+  font-size: 27pt;
+  font-weight: bold;
+  color: #e52e2d;
+  font-family: "Dancing Script", cursive;
+  text-decoration: none;
+}
+#contact-link {
+  padding-right: 10px;
+  border-right: 2px solid #ff5252;
+}

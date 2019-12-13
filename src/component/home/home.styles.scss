@@ -1,0 +1,52 @@
+.home {
+  position: relative;
+  height: 100vh;
+  background-color: #2b2a2a;
+
+  .left-side {
+    position: absolute;
+
+    -webkit-transform: translate(30%, 15%);
+    -ms-transform: translate(30%, 15%);
+    transform: translate(30%, 15%);
+    h2 {
+      font-size: 30px;
+      color: #fcfcfc;
+      margin-top: 300px;
+      font-family: "Baskervville";
+    }
+    p {
+      font-family: "Fanwood Text";
+      font-size: 24px;
+      width: 400px;
+      color: rgba(252, 252, 252, 0.8);
+    }
+    button {
+      cursor: pointer;
+      margin: 15px;
+      padding: 20px;
+      background: transparent;
+      color: rgba(255, 255, 255, 0.8);
+      border-radius: 50px;
+      font-size: 14px;
+      border: 1px solid #0099d3;
+      letter-spacing: 0.08em;
+
+      &:hover {
+        color: #2b2a2a;
+        background: #ecf0f1;
+      }
+    }
+  }
+  .right-side {
+    img {
+      width: 612px;
+      height: 674.93px;
+      position: relative;
+      margin-left: 54.35em;
+      margin-top: 5em;
+      justify-items: end;
+      flex-direction: column;
+    }
+  }
+}

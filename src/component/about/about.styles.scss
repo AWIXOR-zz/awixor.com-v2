@@ -1,0 +1,61 @@
+.about {
+  background: #212121;
+  clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 80%);
+  margin-bottom: 1.45rem;
+  text-align: center;
+
+  color: rgb(255, 255, 255);
+  padding: 8rem 1rem 7rem;
+  animation: polygons 4s alternate infinite;
+
+  h1 {
+    font-family: "Baskervville";
+  }
+  .about-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    .row {
+      p {
+        font-size: 18px;
+      }
+    }
+    .icons {
+      img {
+        margin: 10px;
+      }
+      .figma {
+        filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(346deg)
+          brightness(104%) contrast(97%);
+      }
+      .ps {
+        filter: invert(76%) sepia(40%) saturate(6939%) hue-rotate(154deg)
+          brightness(101%) contrast(106%);
+      }
+      .xd {
+        filter: invert(35%) sepia(81%) saturate(3881%) hue-rotate(297deg)
+          brightness(99%) contrast(105%);
+      }
+      .ai {
+        filter: invert(72%) sepia(64%) saturate(6155%) hue-rotate(1deg)
+          brightness(103%) contrast(105%);
+      }
+      i {
+        font-size: 32px;
+        margin: 10px;
+      }
+      .php {
+        color: #777bb4;
+      }
+      .sass {
+        color: #cc6699;
+      }
+      .react {
+        color: #61dafb;
+      }
+      .js {
+        color: #f7df1e;
+      }
+    }
+  }
+}
