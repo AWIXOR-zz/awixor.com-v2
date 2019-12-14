@@ -3,14 +3,12 @@
   clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 80%);
   margin-bottom: 1.45rem;
   text-align: center;
+  font-family: "Montserrat", sans-serif;
 
   color: rgb(255, 255, 255);
   padding: 8rem 1rem 7rem;
   animation: polygons 4s alternate infinite;
 
-  h1 {
-    font-family: "Baskervville";
-  }
   .about-content {
     display: flex;
     flex-direction: row;

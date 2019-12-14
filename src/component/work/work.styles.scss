@@ -1,0 +1,99 @@
+.work {
+  text-align: center;
+  .title {
+    font-family: "Dancing script";
+    color: #e52e2d;
+    font-size: 48px;
+  }
+  .work-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 50px 200px;
+
+    .card {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      width: 250px;
+      height: 250px;
+      background: #212121;
+      margin-bottom: 50px;
+      padding: 24px;
+      box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 5px 0px,
+        rgba(0, 0, 0, 0.14) 0px 2px 2px 0px,
+        rgba(0, 0, 0, 0.12) 0px 3px 1px -2px;
+      .card-title {
+        color: #f2f2f2;
+        font-family: "Montserrat";
+        margin-bottom: 50px;
+      }
+      p {
+        color: rgba(242, 242, 242, 0.8);
+        font-size: 18px;
+        font-family: "Montserrat", sans-serif;
+      }
+      .card-footer {
+        img {
+          margin: 5px;
+        }
+        .csh {
+          filter: invert(42%) sepia(86%) saturate(581%) hue-rotate(73deg)
+            brightness(87%) contrast(89%);
+        }
+        .visualstudio {
+          filter: invert(23%) sepia(15%) saturate(6152%) hue-rotate(244deg)
+            brightness(94%) contrast(100%);
+        }
+        .mysql {
+          filter: invert(61%) sepia(16%) saturate(7467%) hue-rotate(186deg)
+            brightness(68%) contrast(73%);
+        }
+        .mongodb {
+          filter: invert(48%) sepia(89%) saturate(347%) hue-rotate(71deg)
+            brightness(94%) contrast(80%);
+        }
+        .bootstrap {
+          filter: invert(26%) sepia(13%) saturate(2498%) hue-rotate(222deg)
+            brightness(92%) contrast(89%);
+        }
+        .php {
+          filter: invert(54%) sepia(19%) saturate(830%) hue-rotate(198deg)
+            brightness(88%) contrast(91%);
+        }
+        .jquery {
+          filter: invert(28%) sepia(99%) saturate(927%) hue-rotate(180deg)
+            brightness(94%) contrast(102%);
+        }
+        .js {
+          filter: invert(95%) sepia(97%) saturate(5961%) hue-rotate(332deg)
+            brightness(99%) contrast(107%);
+        }
+        .figma {
+          filter: invert(37%) sepia(57%) saturate(1800%) hue-rotate(346deg)
+            brightness(94%) contrast(101%);
+        }
+        .ps {
+          filter: invert(68%) sepia(76%) saturate(3655%) hue-rotate(155deg)
+            brightness(102%) contrast(105%);
+        }
+        .sass {
+          filter: invert(72%) sepia(68%) saturate(3272%) hue-rotate(293deg)
+            brightness(87%) contrast(82%);
+        }
+        .react {
+          filter: invert(83%) sepia(46%) saturate(1814%) hue-rotate(163deg)
+            brightness(98%) contrast(102%);
+        }
+        .github {
+          filter: invert(98%) sepia(3%) saturate(1324%) hue-rotate(323deg)
+            brightness(107%) contrast(95%);
+        }
+        .laravel {
+          filter: invert(53%) sepia(27%) saturate(6420%) hue-rotate(330deg)
+            brightness(84%) contrast(153%);
+        }
+      }
+    }
+  }
+}

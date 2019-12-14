@@ -2,6 +2,7 @@
   position: relative;
   height: 100vh;
   background-color: #2b2a2a;
+  font-family: "Montserrat", sans-serif;
 
   .left-side {
     position: absolute;
@@ -13,15 +14,14 @@
       font-size: 30px;
       color: #fcfcfc;
       margin-top: 300px;
-      font-family: "Baskervville";
     }
     p {
-      font-family: "Fanwood Text";
       font-size: 24px;
       width: 400px;
       color: rgba(252, 252, 252, 0.8);
     }
     button {
+      font-family: "Montserrat", sans-serif;
       cursor: pointer;
       margin: 15px;
       padding: 20px;

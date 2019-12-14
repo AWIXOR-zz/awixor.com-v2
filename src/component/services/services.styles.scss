@@ -1,0 +1,32 @@
+.services {
+  background: #212121;
+  clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);
+  margin-bottom: 1.45rem;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  padding: 8rem 1rem 7rem;
+  animation: polygons 4s alternate infinite;
+  font-family: "Montserrat", sans-serif;
+  .title {
+    color: #e52e2d;
+    font-family: "Dancing Script";
+    font-size: 48px;
+  }
+  .services-content {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+
+    .row {
+      width: 350px;
+      height: 300px;
+    }
+    h2 {
+      color: #f2f2f2;
+    }
+    p {
+      color: rgba(242, 242, 242, 0.8);
+      font-size: 18px;
+    }
+  }
+}

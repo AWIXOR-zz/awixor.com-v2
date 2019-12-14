@@ -1,0 +1,51 @@
+.projects {
+  text-align: center;
+  .title {
+    color: #e52e2d;
+    font-family: "Dancing Script";
+    font-size: 48px;
+  }
+  .button-group {
+    .is-checked {
+      color: #e52e2d;
+    }
+    margin-bottom: 40px;
+    ul {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      text-decoration: none;
+      list-style: none;
+      li {
+        padding-right: 20px;
+        button {
+          color: #a3a3a3;
+          border: 1px #a3a3a3 solid;
+          padding: 10px 30px 10px 30px;
+          border-radius: 500px;
+          background: none;
+          cursor: pointer;
+          outline: none;
+          -webkit-transition: all 0.3s ease-out;
+          -o-transition: all 0.3s ease-out;
+          transition: all 0.3s ease-out;
+          &:hover {
+            color: #fff;
+            background-color: crimson;
+          }
+        }
+      }
+    }
+  }
+  .projects-imgs {
+    margin: 0 10em;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    .img-container {
+      position: relative;
+      margin: 10px;
+      height: auto;
+    }
+  }
+}
