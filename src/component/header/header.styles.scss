@@ -9,6 +9,37 @@
   border-bottom: 1px #e52e2d solid;
   overflow: hidden;
 
+  @media screen and (max-width: 760px) {
+    .main-header {
+      padding-top: 25px;
+    }
+  }
+  .open-nav .mobile-menu .ch1 {
+    -webkit-transform: translateY(10px) rotate(45deg);
+    -ms-transform: translateY(10px) rotate(45deg);
+    transform: translateY(10px) rotate(45deg);
+    -webkit-transition: 1s;
+    -ms-transition: 1s;
+    transition: 1s;
+  }
+
+  .open-nav .mobile-menu .ch2 {
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transition: 1s;
+    -ms-transition: 1s;
+    transition: 1s;
+  }
+
+  .open-nav .mobile-menu .ch3 {
+    -webkit-transform: translateY(-10px) rotate(-45deg);
+    -ms-transform: translateY(-10px) rotate(-45deg);
+    transform: translateY(-10px) rotate(-45deg);
+    -webkit-transition: 1s;
+    -ms-transition: 1s;
+    transition: 1s;
+  }
   nav {
     width: 80%;
     float: right;
@@ -59,6 +90,11 @@
   color: #e52e2d;
   font-family: "Dancing Script", cursive;
   text-decoration: none;
+}
+@media screen and (max-width: 760px) {
+  .logo {
+    float: none;
+  }
 }
 #contact-link {
   padding-right: 10px;

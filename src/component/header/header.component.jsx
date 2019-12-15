@@ -8,6 +8,12 @@ const Header = () => (
       <a className="logo" href="/">
         Awixor
       </a>
+
+      <div class="mobile-menu">
+        <span class="ch1"></span>
+        <span class="ch2"></span>
+        <span class="ch3"></span>
+      </div>
       <nav className="navbar">
         <ul>
           <li>
@@ -42,7 +48,7 @@ const Header = () => (
             </a>
           </li>
           <li>
-            <i class="fas fa-sun"></i>
+            <i className="fas fa-sun"></i>
           </li>
         </ul>
       </nav>

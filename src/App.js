@@ -5,7 +5,8 @@ import Home from "./component/home/home.component";
 import About from "./component/about/about.component";
 import Work from "./component/work/work.component";
 import Services from "./component/services/services.component";
-
+import Contact from "./component/contact/contact.component";
+import Footer from "./component/footer/footer.component";
 import "./App.css";
 import Projects from "./component/projects/projects.component";
 
@@ -18,6 +19,8 @@ function App() {
       <Work />
       <Services />
       <Projects />
+      <Contact />
+      <Footer />
     </div>
   );
 }

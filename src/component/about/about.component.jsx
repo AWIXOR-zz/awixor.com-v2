@@ -12,10 +12,10 @@ const About = () => (
         <img src={codeReview} alt="Code Review" />
         <p>FULL STACK DEVELOPMENT</p>
         <div className="icons">
-          <i class="fab fa-php php"></i>
-          <i class="fab fa-sass sass"></i>
-          <i class="fab fa-react react"></i>
-          <i class="fab fa-js js"></i>
+          <i className="fab fa-php php"></i>
+          <i className="fab fa-sass sass"></i>
+          <i className="fab fa-react react"></i>
+          <i className="fab fa-js js"></i>
         </div>
       </div>
       <div className="row">
@@ -26,7 +26,6 @@ const About = () => (
             height="32"
             width="32"
             alt="img"
-            color="red"
             className="figma"
             src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/figma.svg"
           />

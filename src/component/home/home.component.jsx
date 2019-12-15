@@ -4,7 +4,7 @@ import "./home.styles.scss";
 import codeThinking from "../../assits/bg 3.png";
 
 const Home = () => (
-  <section className="home">
+  <section id="#home" className="home">
     <div className="left-side">
       <h2 className="title">EL HOUCINE AOUASSAR,</h2>
       <p>

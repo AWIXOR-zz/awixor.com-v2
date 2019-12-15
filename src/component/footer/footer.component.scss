@@ -1,0 +1,59 @@
+.footer {
+  margin: 150px 0 0 150px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+
+  .top {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    .string {
+      color: #f2f2f2;
+      font-size: 18px;
+    }
+    .icons {
+      margin: 0 50px;
+      i {
+        cursor: pointer;
+        font-size: 30px;
+        color: #f2f2f2;
+        margin: 0 10px;
+      }
+      .facebook:hover {
+        color: #1877f2;
+      }
+      .behance:hover {
+        color: #1769ff;
+      }
+      .twitter:hover {
+        color: #1da1f2;
+      }
+      .instagram:hover {
+        color: #e4405f;
+      }
+      .linkedin:hover {
+        color: #0077b5;
+      }
+      .medium:hover {
+        color: #12100e;
+      }
+      .codepen:hover {
+        color: #000000;
+      }
+    }
+  }
+  .bottom {
+    text-align: center;
+    color: rgba(242, 242, 242, 0.79);
+    font-size: 14px;
+    .react {
+      color: #61dafb;
+    }
+    .netlify {
+      margin: -3px 4px;
+      filter: invert(72%) sepia(26%) saturate(6573%) hue-rotate(129deg)
+        brightness(91%) contrast(103%);
+    }
+  }
+}

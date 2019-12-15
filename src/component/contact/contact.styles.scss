@@ -1,0 +1,62 @@
+.contact {
+  margin-top: 100px;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
+
+  .title {
+    text-align: center;
+    color: #e52e2d;
+    font-family: "Dancing Script";
+    font-size: 48px;
+  }
+
+  form {
+    padding: 10px 100px;
+    margin: 10px 200px;
+    .row {
+      margin-top: 30px;
+      label {
+        color: #f2f2f2;
+        font-size: 24px;
+        span {
+          color: #e52e2d;
+        }
+      }
+      input[type="text"],
+      input[type="email"] {
+        font-family: "Montserrat", sans-serif;
+        width: 100%;
+        padding: 5px;
+        margin: 15px 0;
+        height: 45px;
+        font-size: 1.2em;
+        background: rgba(83, 83, 83, 0.09);
+        border: 1px #2f2c2c solid;
+        color: #f2f2f27c;
+        border-radius: 5px;
+      }
+
+      textarea {
+        font-family: "Montserrat", sans-serif;
+        width: 100%;
+        padding: 5px;
+        font-size: 1.2em;
+        background: #f8f9fa;
+        border: 1px #a3a3a3 solid;
+        color: #a3a3a3;
+        border-radius: 5px;
+      }
+      #contact-submit {
+        padding: 20px;
+        background-color: transparent;
+        border: 1px solid #e52e2d;
+        border-radius: 50px;
+        color: #f2f2f2;
+        &:hover {
+          background-color: #e52e2d;
+        }
+      }
+    }
+  }
+}
