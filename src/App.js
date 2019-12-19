@@ -1,5 +1,9 @@
 import React from "react";
 
+// import "scrollmagic/scrollmagic/uncompressed/plugins/animation.gsap";
+// import { TimelineMax, TweenMax, TweenLite } from "gsap/all";
+// import ScrollMagic from "scrollmagic";
+
 import Header from "./component/header/header.component";
 import Home from "./component/home/home.component";
 import About from "./component/about/about.component";
@@ -10,19 +14,20 @@ import Footer from "./component/footer/footer.component";
 import "./App.css";
 import Projects from "./component/projects/projects.component";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <Header />
-      <Home />
-      <About />
-      <Work />
-      <Services />
-      <Projects />
-      <Contact />
-      <Footer />
+      <div className="container">
+        <Header />
+        <Home />
+        <About />
+        <Work />
+        <Services />
+        <Projects />
+        <Contact />
+        <Footer />
+      </div>
     </div>
   );
-}
-
+};
 export default App;

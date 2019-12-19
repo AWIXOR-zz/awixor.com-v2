@@ -59,4 +59,11 @@
       }
     }
   }
+
+  @media (min-width: 350px) and (max-width: 1024px) {
+    form {
+      padding: 2.5px 25px;
+      margin: 2.5px 50px;
+    }
+  }
 }

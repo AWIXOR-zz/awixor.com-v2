@@ -3,7 +3,7 @@
   .title {
     font-family: "Dancing script";
     color: #e52e2d;
-    font-size: 48px;
+    font-size: 45px;
   }
   .work-content {
     display: flex;
@@ -92,6 +92,29 @@
         .laravel {
           filter: invert(53%) sepia(27%) saturate(6420%) hue-rotate(330deg)
             brightness(84%) contrast(153%);
+        }
+      }
+    }
+    @media screen and (max-width: 760px) {
+      .card {
+        justify-content: center;
+
+        .card-title {
+          margin-bottom: 0;
+          padding: 50px;
+          font-size: 18px;
+        }
+        p {
+          font-size: 14px;
+        }
+        .card-footer {
+          margin-bottom: 10px;
+
+          img {
+            margin: 5px;
+            width: 12px;
+            height: 12px;
+          }
         }
       }
     }

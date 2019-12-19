@@ -107,7 +107,7 @@ class Projects extends React.Component {
 
   render() {
     return (
-      <section className="projects">
+      <section id="projects" className="projects">
         <div className="title">Projects</div>
         <div className="projects-content">
           <ProjectMenu />

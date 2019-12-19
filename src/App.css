@@ -1,7 +1,39 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 .App {
   background: #2b2a2a;
+}
+.container {
+  margin: auto;
+  padding-top: 80px;
+  padding-bottom: 5px;
+}
+@media screen and (max-width: 460px) {
+  .container {
+    overflow: hidden;
+  }
 }
 body {
   font-family: "Roboto", sans-serif;
   color: #454545;
+}
+/***********************************SCROLL BAR STYLES***********************************/
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #a3a3a3;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #e52e2d;
 }

@@ -5,7 +5,7 @@ import masterPlan from "../../assits/masterPlan 1.svg";
 import "./about.styles.scss";
 
 const About = () => (
-  <section className="about">
+  <section id="about" className="about">
     <h1>MORE ABOUT MY SKILLS</h1>
     <div className="about-content">
       <div className="row">

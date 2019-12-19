@@ -1,6 +1,6 @@
 .about {
   background: #212121;
-  clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 80%);
+  clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);
   margin-bottom: 1.45rem;
   text-align: center;
   font-family: "Montserrat", sans-serif;
@@ -16,6 +16,11 @@
     .row {
       p {
         font-size: 18px;
+      }
+    }
+    @media screen and (max-width: 760px) {
+      .row {
+        margin-top: 50px;
       }
     }
     .icons {
@@ -54,6 +59,13 @@
       .js {
         color: #f7df1e;
       }
+    }
+  }
+  @media screen and (max-width: 760px) {
+    clip-path: polygon(0 0%, 100% 0, 100% 100%, 0 100%);
+    .about-content {
+      margin-top: 50px;
+      display: block;
     }
   }
 }

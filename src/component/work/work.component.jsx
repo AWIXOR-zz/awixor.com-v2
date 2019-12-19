@@ -3,7 +3,7 @@ import React from "react";
 import "./work.styles.scss";
 
 const Work = () => (
-  <section className="work">
+  <section id="work" className="work">
     <h1 className="title">Work</h1>
     <div className="work-content">
       <div className="card">

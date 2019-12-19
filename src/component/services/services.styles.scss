@@ -15,18 +15,40 @@
   .services-content {
     display: flex;
     margin-top: 50px;
+    text-align: center;
     justify-content: space-around;
 
     .row {
       width: 350px;
       height: 300px;
     }
-    h2 {
+    h3 {
       color: #f2f2f2;
+      margin: 5px;
     }
     p {
       color: rgba(242, 242, 242, 0.8);
-      font-size: 18px;
+      font-size: 17px;
+      margin: 20px 0;
+    }
+  }
+  @media screen and (max-width: 760px) {
+    clip-path: polygon(0 0%, 100% 0, 100% 100%, 0 100%);
+    .services-content {
+      margin-top: 50px;
+      display: grid;
+      text-align: center;
+      .row {
+        margin-top: 50px;
+      }
+      p {
+        font-size: 14px;
+        width: 100%;
+      }
+      img {
+        width: 250px;
+        height: 250px;
+      }
     }
   }
 }

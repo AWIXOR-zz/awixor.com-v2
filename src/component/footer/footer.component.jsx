@@ -7,18 +7,18 @@ const Footer = () => (
     <div className="top">
       <div className="string">Follow me on:</div>
       <div className="icons">
-        <i class="fab fa-facebook facebook"></i>
-        <i class="fab fa-twitter twitter"></i>
-        <i class="fab fa-behance behance"></i>
-        <i class="fab fa-codepen codepen"></i>
-        <i class="fab fa-medium medium"></i>
-        <i class="fab fa-instagram instagram"></i>
-        <i class="fab fa-linkedin linkedin"></i>
+        <i className="fab fa-facebook facebook"></i>
+        <i className="fab fa-twitter twitter"></i>
+        <i className="fab fa-behance behance"></i>
+        <i className="fab fa-codepen codepen"></i>
+        <i className="fab fa-medium medium"></i>
+        <i className="fab fa-instagram instagram"></i>
+        <i className="fab fa-linkedin linkedin"></i>
       </div>
     </div>
     <div className="bottom">
       <p>
-        Awixor - Built with React <i class="fab fa-react react"></i> and
+        Awixor - Built with React <i className="fab fa-react react"></i> and
         Deployed on Netlify
         <img
           height="18"

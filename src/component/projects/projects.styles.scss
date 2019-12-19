@@ -37,6 +37,17 @@
       }
     }
   }
+  @media screen and (max-width: 760px) {
+    .button-group {
+      ul {
+        flex-direction: column;
+        li {
+          padding-right: 5px;
+          margin: 10px 0;
+        }
+      }
+    }
+  }
   .projects-item {
     margin: 0 10em;
     display: flex;

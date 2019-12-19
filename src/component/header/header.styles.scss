@@ -9,12 +9,107 @@
   border-bottom: 1px #e52e2d solid;
   overflow: hidden;
 
-  @media screen and (max-width: 760px) {
-    .main-header {
-      padding-top: 25px;
+  .header-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    padding: 0 25px;
+
+    nav {
+      width: 80%;
+      float: right;
+
+      .nav-menu {
+        float: right;
+        overflow: hidden;
+        margin-right: 100px;
+        display: inline-block;
+        padding-right: 10px;
+        border-right: 2px solid #ff5252;
+        color: #454545;
+        line-height: 2.5;
+
+        .menu-item {
+          cursor: pointer;
+          font-size: 14px;
+          margin-left: 20px;
+          -webkit-transition: color 0.3s ease;
+          -o-transition: color 0.3s ease;
+          transition: color 0.3s ease;
+          &:hover {
+            color: #e52e2d;
+          }
+        }
+        @media screen and (max-width: 760px) {
+          .menu-item {
+            width: 100%;
+            padding: 5px 0;
+            margin: 0;
+          }
+        }
+        .active {
+          color: #e52e2d;
+        }
+      }
+      @media screen and (max-width: 768px) {
+        .nav-menu {
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+          border-top: 1.5px solid #ff5252;
+          padding-top: 10px;
+          margin-bottom: 20px;
+          text-align: center;
+          padding-right: 0;
+          margin-top: 20px;
+          border-right: none;
+        }
+      }
+    }
+    @media screen and (max-width: 760px) {
+      .navbar {
+        display: flex;
+      }
+    }
+    .mobile-menu {
+      display: none;
+      cursor: pointer;
+      font-size: 20px;
+      position: absolute;
+      right: 22px;
+      top: 0;
+      width: 30px;
+      -webkit-transition: all 200ms ease-in;
+      -moz-transition: all 200ms ease-in;
+      -o-transition: all 200ms ease-in;
+      transition: all 200ms ease-in;
+    }
+
+    @media screen and (max-width: 768px) {
+      .mobile-menu {
+        margin-top: 10px;
+        display: block;
+      }
+    }
+
+    @media (min-width: 770px) and (max-width: 1024px) {
+      .navbar {
+        width: 70%;
+      }
+    }
+    .mobile-menu span {
+      width: 30px;
+      height: 4px;
+      margin-bottom: 6px;
+      border-radius: 1000px;
+      background: #fcfcfc;
+      display: block;
     }
   }
-  .open-nav .mobile-menu .ch1 {
+}
+.open-nav {
+  max-height: 400px !important;
+  .ch1 {
     -webkit-transform: translateY(10px) rotate(45deg);
     -ms-transform: translateY(10px) rotate(45deg);
     transform: translateY(10px) rotate(45deg);
@@ -22,8 +117,7 @@
     -ms-transition: 1s;
     transition: 1s;
   }
-
-  .open-nav .mobile-menu .ch2 {
+  .ch2 {
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
@@ -31,8 +125,7 @@
     -ms-transition: 1s;
     transition: 1s;
   }
-
-  .open-nav .mobile-menu .ch3 {
+  .ch3 {
     -webkit-transform: translateY(-10px) rotate(-45deg);
     -ms-transform: translateY(-10px) rotate(-45deg);
     transform: translateY(-10px) rotate(-45deg);
@@ -40,42 +133,10 @@
     -ms-transition: 1s;
     transition: 1s;
   }
-  nav {
-    width: 80%;
-    float: right;
-
-    ul {
-      float: right;
-      overflow: hidden;
-      list-style: none;
-      text-align: right;
-      margin-right: 100px;
-
-      li {
-        display: inline-block;
-        margin-left: 20px;
-        line-height: 1.5;
-
-        i {
-          color: #fcfcfc;
-        }
-      }
-      a {
-        text-decoration: none;
-        color: #454545;
-        text-transform: uppercase;
-        font-size: 14px;
-        -webkit-transition: color 0.3s ease;
-        -o-transition: color 0.3s ease;
-        transition: color 0.3s ease;
-        &:hover {
-          color: #e52e2d;
-        }
-      }
-      .active {
-        color: #e52e2d;
-      }
-    }
+}
+@media screen and (max-width: 760px) {
+  .main-header {
+    padding-top: 25px;
   }
 }
 .logo {
@@ -95,8 +156,4 @@
   .logo {
     float: none;
   }
-}
-#contact-link {
-  padding-right: 10px;
-  border-right: 2px solid #ff5252;
 }
