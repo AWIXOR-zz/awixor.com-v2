@@ -9,12 +9,13 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin: 50px 200px;
+    margin: 50px 300px;
 
     .card {
+      cursor: pointer;
       display: flex;
       flex-direction: column;
-      justify-content: space-around;
+      justify-content: space-between;
       width: 250px;
       height: 250px;
       background: #212121;
@@ -27,6 +28,12 @@
         color: #f2f2f2;
         font-family: "Montserrat";
         margin-bottom: 50px;
+      }
+      a {
+        text-decoration: none;
+        :hover {
+          color: #00bbff;
+        }
       }
       p {
         color: rgba(242, 242, 242, 0.8);
@@ -95,7 +102,11 @@
         }
       }
     }
-    @media screen and (max-width: 760px) {
+  }
+  @media screen and (max-width: 760px) {
+    .work-content {
+      margin: 50px 100px;
+
       .card {
         justify-content: center;
 

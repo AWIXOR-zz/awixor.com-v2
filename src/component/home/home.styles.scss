@@ -7,9 +7,9 @@
   .left-side {
     position: absolute;
 
-    -webkit-transform: translate(30%, 15%);
-    -ms-transform: translate(30%, 15%);
-    transform: translate(30%, 15%);
+    -webkit-transform: translate(30%, 0%);
+    -ms-transform: translate(30%, 0%);
+    transform: translate(30%, 0%);
     h2 {
       font-size: 30px;
       color: #fcfcfc;
@@ -52,6 +52,11 @@
     }
   }
   @media (min-width: 100px) and (max-width: 400px) {
+    .left-side {
+      -webkit-transform: translate(0%, -30%);
+      -ms-transform: translate(0%, -30%);
+      transform: translate(0%, -30%);
+    }
     h2 {
       font-size: 24px;
       color: #fcfcfc;
@@ -63,8 +68,8 @@
       width: 612px;
       height: 674.93px;
       position: relative;
-      margin-left: 54.95em;
-      margin-top: 5em;
+      float: right;
+
       justify-items: end;
       flex-direction: column;
     }
@@ -75,18 +80,28 @@
     }
   }
 }
+
 @media (min-width: 768px) and (max-width: 1024px) {
   .home {
-    height: 50vh;
-
+    height: 40vh;
+    .left-side {
+      -webkit-transform: translate(20%, -30%);
+      -ms-transform: translate(20%, -30%);
+      transform: translate(20%, -30%);
+    }
     .right-side {
+      overflow: hidden;
       img {
-        margin-top: 15em;
         width: 400px;
         height: 400.93px;
         position: relative;
         float: right;
       }
     }
+  }
+}
+@media (min-width: 1000px) and (max-width: 1024px) {
+  .home {
+    height: 100%;
   }
 }

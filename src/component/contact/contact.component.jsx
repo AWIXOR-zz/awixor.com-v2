@@ -3,7 +3,13 @@ import React from "react";
 import "./contact.styles.scss";
 
 const Contact = () => (
-  <section id="#contact" className="contact">
+  <section
+    id="contact"
+    className="contact"
+    name="contact"
+    method="POST"
+    data-netlify="true"
+  >
     <div className="title">Contact Me</div>
     <div className="contact-content">
       <form action="">
