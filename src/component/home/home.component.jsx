@@ -13,7 +13,12 @@ const Home = () => (
       <a href="#contact" className="animated-button">
         <button>Get in Touch</button>
       </a>
-      <a href="/" className="animated-button">
+      <a
+        href="https://drive.google.com/file/d/1EhoxTEN5uV5anv-rtZs10iUJHZmU8tTa/view?usp=sharing"
+        className="animated-button"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <button>View Resume</button>
       </a>
     </div>

@@ -3,16 +3,10 @@ import React from "react";
 import "./contact.styles.scss";
 
 const Contact = () => (
-  <section
-    id="contact"
-    className="contact"
-    name="contact"
-    method="POST"
-    data-netlify="true"
-  >
+  <section id="contact" className="contact">
     <div className="title">Contact Me</div>
     <div className="contact-content">
-      <form action="">
+      <form name="contact" method="POST" data-netlify="true">
         <div className="row">
           <label htmlFor="name">
             Name <span>*</span>

@@ -7,13 +7,27 @@ const Footer = () => (
     <div className="top">
       <div className="string">Follow me on:</div>
       <div className="icons">
-        <i className="fab fa-facebook facebook"></i>
-        <i className="fab fa-twitter twitter"></i>
-        <i className="fab fa-behance behance"></i>
-        <i className="fab fa-codepen codepen"></i>
-        <i className="fab fa-medium medium"></i>
-        <i className="fab fa-instagram instagram"></i>
-        <i className="fab fa-linkedin linkedin"></i>
+        <a href="https://www.facebook.com/profile.php?id=100009514404677">
+          <i className="fab fa-facebook facebook"></i>
+        </a>
+        <a href="https://twitter.com/HAoussare">
+          <i className="fab fa-twitter twitter"></i>
+        </a>
+        <a href="https://www.behance.net/awixor">
+          <i className="fab fa-behance behance"></i>
+        </a>
+        <a href="https://codepen.io/awixor">
+          <i className="fab fa-codepen codepen"></i>
+        </a>
+        <a href="https://medium.com/@Awixor">
+          <i className="fab fa-medium medium"></i>
+        </a>
+        <a href="https://www.instagram.com/awixor">
+          <i className="fab fa-instagram instagram"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/awixor/">
+          <i className="fab fa-linkedin linkedin"></i>
+        </a>
       </div>
     </div>
     <div className="bottom">

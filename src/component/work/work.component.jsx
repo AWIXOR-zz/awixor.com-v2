@@ -2,13 +2,14 @@ import React from "react";
 
 import "./work.styles.scss";
 
+const github = "https://github.com/AWIXOR/";
 const Work = () => (
   <section id="work" className="work">
     <h1 className="title">Work</h1>
     <div className="work-content">
       <div className="card">
         <a
-          href="https://github.com/AWIXOR/DBMigration"
+          href={`${github}DBMigration`}
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -48,7 +49,7 @@ const Work = () => (
       </div>
       <div className="card">
         <a
-          href="https://github.com/AWIXOR/Invoice_System"
+          href={`${github}Invoice_System`}
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -84,7 +85,7 @@ const Work = () => (
       </div>
       <div className="card">
         <a
-          href="https://github.com/AWIXOR/Search_Engine"
+          href={`${github}Search_Engine`}
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -124,7 +125,7 @@ const Work = () => (
       </div>
       <div className="card">
         <a
-          href="https://github.com/AWIXOR/BTS_Website"
+          href={`${github}BTS_Website`}
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -167,7 +168,7 @@ const Work = () => (
       </div>
       <div className="card">
         <a
-          href="https://github.com/AWIXOR/awixor.com-v2"
+          href={`${github}awixor.com-v2`}
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -206,11 +207,7 @@ const Work = () => (
         </div>
       </div>
       <div className="card">
-        <a
-          href="https://github.com/AWIXOR"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a href={`${github}`} target="_blank" rel="noopener noreferrer">
           <h2 className="card-title">& MORE</h2>
         </a>
         <p>Feel free to expolre more of my work on my GitHub....</p>
