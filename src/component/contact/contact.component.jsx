@@ -6,7 +6,7 @@ const Contact = () => (
   <section id="contact" className="contact">
     <div className="title">Contact Me</div>
     <div className="contact-content">
-      <form name="contact-form" netlify method="POST">
+      <form name="contact-form" action="https://api.formik.com/submit/awixor-prtfolio/contact-from" method="post">
         <div className="row">
           <label htmlFor="name">
             Name <span>*</span>
