@@ -1,8 +1,6 @@
 # awixor.com-v2
 
-Since I learned React, I decided to redesign my portfolio and re-code it using React : https://awixor.netlify.com
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/2697841e-0060-4129-b0eb-e12cb3876e17/deploy-status)](https://app.netlify.com/sites/awixor/deploys)
+Since I learned React, I decided to redesign my portfolio and re-code it using React : https://awixor.com
 
 [![Support me on Patreon](https://c5.patreon.com/external/logo/become_a_patron_button.png)](https://www.patreon.com/awixor)
 
