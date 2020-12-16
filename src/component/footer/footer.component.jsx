@@ -33,13 +33,13 @@ const Footer = () => (
     <div className="bottom">
       <p>
         Awixor - Built with React <i className="fab fa-react react"></i> and
-        Deployed on Netlify
+        Deployed on Vercel
         <img
           height="18"
           width="18"
           alt="img"
           className="netlify"
-          src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/netlify.svg"
+          src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/vercel.svg"
         />
       </p>
     </div>
