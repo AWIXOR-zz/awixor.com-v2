@@ -14,7 +14,7 @@ const Home = () => (
         <button>Get in Touch</button>
       </a>
       <a
-        href="https://drive.google.com/file/d/1EhoxTEN5uV5anv-rtZs10iUJHZmU8tTa/view?usp=sharing"
+        href="https://drive.google.com/file/d/1V1LnjmIMxF7op88GUsoIyFZTScsu_hrroHtcsgAvgoE/view?usp=sharing"
         className="animated-button"
         target="_blank"
         rel="noopener noreferrer"
